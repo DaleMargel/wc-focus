@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<meta charset="UTF-8">
+		<title>Focus Control</title>
+		<style>
+			body { font-family: sans-serif;}
+			wc-focus { --outline_color: Maroon }
+			table, td, th {
+				border: 1px solid black;
+				padding-left: 1em; padding-right: 1em;
+			}
+			table {
+				border-collapse: collapse;
+			}
+		</style>
+	</head>
+    <body>
+		<wc-focus>
+    	    <h1>Test</h1>
+			<div>This is a test for a focus control.</div><br>
+			<input/><br><br>
+			<textarea></textarea><br><br>
+			<button>Press Me</button><br><br>
+			<table>
+				<tr><th>City</th><th>Province</th></tr>
+				<tr><td contenteditable>Winnipeg</td><td contenteditable>Manitoba</td></tr>
+				<tr><td contenteditable>Saskatoon</td><td contenteditable>Saskatchewan</td></tr>
+				<tr><td contenteditable>Edmonton</td><td contenteditable>Alberta</td></tr>
+				<tr><td contenteditable>Calgary</td><td contenteditable>Alberta</td></tr>
+			</table>
+		</wc-focus>
+		<script type="module" src="./src/wc-focus.js"></script>
+	</body>
+</html>
