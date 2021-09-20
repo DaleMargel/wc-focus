@@ -47,5 +47,5 @@ catch(NotSupportedError){/* duplicate */}
 export { WcFocus }
 // Code: Copyright © 2021 Dale Margel / Azure Solutions
 // under Creative Commons - Attribution-NonCommercial CC BY-NC
-// Build 2021.08.07
+// Build 2021.08.19
 // Use at your own risk
